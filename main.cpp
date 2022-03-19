@@ -12,6 +12,8 @@ int main(int argc, char *argv[])
     s->goHunt();
     s->note();
 
+    s->note();
+
     son *ss=dynamic_cast<son*>(s);
     ss->goHunt();
     ss->secondHunt();
